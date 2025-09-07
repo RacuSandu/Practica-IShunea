@@ -17,6 +17,7 @@ export interface SearchManufacturerProps{
 }
 
 export interface CarProps{
+  imageUrl: string;
   class: string;
   cylinders: number;
   displacement: number;
